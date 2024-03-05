@@ -1,0 +1,60 @@
+html {
+  font-size: 15px;
+  align-items: center;
+}
+
+body {
+  background: navy;
+  color: cornsilk;
+  text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+  text-align: center;
+}
+.card {
+  background-color: #fff;
+  color: red;
+}
+.card-body,
+ul {
+  background-color: rosybrown;
+  min-height: 0px;
+  align-items: center;
+}
+.form-control {
+  border-top-right-radius: 50;
+  border-bottom-right-radius: 50;
+}
+.btn {
+  border-top-left-radius: 50;
+  border-bottom-left-radius: 50;
+}
+.list-item {
+  color: navy;
+}
+.list-group-item {
+  background-color: inherit;
+  border: none;
+}
+.under-list-item {
+  font-size: 0.9rem;
+}
+.under-list-item .list-group-item {
+  color: rgb(78, 78, 78);
+}
+
+.under-list-input input {
+  height: calc(1em + 0.75rem);
+}
+
+.line-throught {
+  text-decoration: line-through;
+}
